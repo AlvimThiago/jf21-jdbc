@@ -5,8 +5,6 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import javax.management.RuntimeErrorException;
-
 import br.com.caelum.jdbc.ConnectionFactory;
 import br.com.caelum.jdbc.modelo.Contato;
 
