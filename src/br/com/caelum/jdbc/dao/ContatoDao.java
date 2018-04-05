@@ -23,7 +23,8 @@ public class ContatoDao {
 	
 	public void adiciona(Contato contato){
 		String sql = "insert into contatos " + "(nome,email,endereco,dataNascimento)" + "values(?,?,?,?)";
-		
+		//String sql = "create database cocadaDaBahia;";
+				
 		try{
 			
 			PreparedStatement stmt = connection.prepareStatement(sql);
