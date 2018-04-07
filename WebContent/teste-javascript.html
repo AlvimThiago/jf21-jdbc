@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js/jquery.js"></script>
+
+<script>
+	var x = 10;
+	function acao(){
+		console.log("passou aqui");
+	} 
+	acao();
+	
+	function botaoAcao(){
+		
+		console.log("Botão Ação")
+		$("#div1").html("Texto Não Tão Inicial");
+		
+	}
+	
+
+</script>
+</head>
+<body>
+<input type="button" value="ação" onclick="botaoAcao()"/>
+<div id="div1">Texto Inicial</div>
+<div id="div2">Texto 2</div>
+</body>
+</html>
